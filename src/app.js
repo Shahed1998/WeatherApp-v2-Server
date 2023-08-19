@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 const corsOption = {
-  origin: ['http://localhost:4200'],
+  origin: ['https://shahed-weather-app-v2.netlify.app/'],
   methods: 'POST',
   preflightContinue: false,
   optionsSuccessStatus: 200,
